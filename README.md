@@ -1,2 +1,3 @@
-# csapp_solutions
-Solutions for CS:APP Practice/Homework Problems.
+# csapp_experiments
+
+Tests and solutions for CS:APP Practice/Homework Problems.
