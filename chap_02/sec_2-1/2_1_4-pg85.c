@@ -15,5 +15,5 @@ void show_bytes(byte_pointer start, size_t len)
 int main()
 {
     const char* value = "12345";
-    show_bytes((byte_pointer) value, strlen(value));  // why not &value?
+    show_bytes((byte_pointer) value, strlen(value)+1);  // why not &value?
 }
