@@ -56,7 +56,7 @@ main:
 	.cfi_startproc
 	subq	$8, %rsp
 	.cfi_def_cfa_offset 16
-	movl	$5, %esi
+	movl	$6, %esi
 	movl	$.LC1, %edi
 	call	show_bytes
 	movl	$0, %eax
