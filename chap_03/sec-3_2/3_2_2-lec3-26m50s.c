@@ -6,6 +6,10 @@ void sumstore(long x, long y, long *dest)
 {
     long t = plus(x, y);
     *dest = t;
+    /*
+    401134:  48 89 03  -> 3-byte instruction, stored at 0x401134
+    mov    %rax,(%rbx)
+    */
 }
 
 /* Checking different assembly "representations" of sumstore.
